@@ -1,0 +1,17 @@
+# Train parameters
+project_name : "simple_GAN_MNIST"
+num_epochs : 300
+batch_size : 64
+lr : 0.00003
+beta1 : 0.5
+beta2 : 0.999
+k : 1
+log_interval : 100   # number of discriminator updates per generator update
+# Model parameters
+latent_dim : 32
+img_shape : [28, 28]
+channels : 1
+# Paths
+data_dir : "../data"
+output_dir : "../results"
+
