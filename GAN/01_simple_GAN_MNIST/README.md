@@ -98,6 +98,7 @@ This two-step process is repeated, allowing both networks to improve in tandem.
 │   │   ├──logger.py      # Setup logger
 │   └── main.py           # Main script to run the training
 ├── results/              # Output folder for generated images
+├── literature/           # Related literature and resources (e.g., papers)
 ├── config.yaml           # All hyperparameters and paths
 ├── requirements.txt      # Python dependencies
 └── README.md             # This file
