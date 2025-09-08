@@ -1,0 +1,17 @@
+# Train parameters
+project_name : "DCGAN_AnimeFaces"
+num_epochs : 400
+batch_size : 64
+lr : 0.00003
+beta1 : 0.5
+beta2 : 0.999
+k : 1               # number of discriminator updates per generator update
+log_interval : 10   
+# Model parameters
+latent_dim : 32
+img_shape : [256, 256]
+channels : 3
+# Paths
+data_dir : "data/out2"
+output_dir : "../results"
+
