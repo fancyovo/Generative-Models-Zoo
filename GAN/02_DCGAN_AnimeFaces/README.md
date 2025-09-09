@@ -129,7 +129,7 @@ pip install -r requirements.txt
 
 **2.3 Start Training** 
 
-Run the main training script. The script will automatically download the MNIST dataset into the `data/` directory.
+Run the main training script. 
 
 ```bash
 python main.py
