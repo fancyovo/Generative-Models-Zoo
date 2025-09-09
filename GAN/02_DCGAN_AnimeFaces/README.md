@@ -149,7 +149,7 @@ Mode collapse frequently occurs when training GANs. Here are some tricks to redu
 
 1. **Use `BatchNorm` in Generator.** Otherwise mode collapse is almost inevitable.
 
-2. **Non-saturating Generator Loss.** The original paper used the saturating loss ($\log(1 - D(G(z)))$). Nowadays, the non-saturating loss,  minimizing $-\log(D(G(z)))$, is more commonly adopted due to its more stable gradients.
+2. **Non-saturating Generator Loss.** The original paper used the saturating loss ( $\log(1 - D(G(z)))$ ). Nowadays, the non-saturating loss,  minimizing $-\log(D(G(z)))$, is more commonly adopted due to its more stable gradients.
 
 3. **Use `nn.BCELoss` or `nn.BCEWithLogitsLoss` instead of `torch.log`.**  
 
